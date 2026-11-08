@@ -74,7 +74,7 @@ function renderAlbums(albumsToRender) {
 }
 
 // Create album card element
-function createAlbumCard(album) {
+function CreateAlbumCard(album) {
     const card = document.createElement('div');
     card.className = 'album-card';
     card.innerHTML = `
